@@ -12,10 +12,11 @@ body {
 
 /*=== HEADER ===*/
 
-header nav, #banner, #wrapper{
+.container {
     margin: 0 auto;
     max-width: 940px;
 }
+
 
 header nav{
     padding: 32px 0;
@@ -74,7 +75,7 @@ header div #img-chef {
 
 /*=== END HEADER ===*/
 
-#wrapper h1{
+#wrapper-title-cards h1{
     font-size: 24px;
     line-height: 34px;
     color: #111111;
@@ -121,4 +122,27 @@ footer p {
     color: #999999;
     text-align: center;
     padding: 23px;
+}
+
+
+/*=== ABOUT ===*/
+
+#wrapper-title-about h1{
+    font-size: 24px;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+#wrapper-about p {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.wrapper-subtitle-about h2{
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    margin-bottom: 20px;
 }
