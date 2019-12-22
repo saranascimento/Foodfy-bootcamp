@@ -108,6 +108,9 @@ header div #img-chef {
 .card__info p {
     font-size: 14px;
     color: #777777;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
 }
 
 /*=== FOOTER ===*/
