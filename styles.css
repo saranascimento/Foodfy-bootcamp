@@ -1,9 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
 
-:root {
-
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -111,4 +107,18 @@ header div #img-chef {
 .card__info p {
     font-size: 14px;
     color: #777777;
+}
+
+/*=== FOOTER ===*/
+
+footer {
+    background: #EEEEEE;
+    height: 62px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    padding: 23px;
 }
